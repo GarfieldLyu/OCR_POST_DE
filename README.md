@@ -25,7 +25,6 @@ keras_implement:
 
 torch_implement:
   A torch implementation is also on going, for now we provide a standard attention based encoder-decoder model. The only differences are:
-
     1. a random teacher-forcing training.
     2. entmax (instead of softmax).
   These two changes boosted the performance further, which also maintains the simplicity. 
