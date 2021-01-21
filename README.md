@@ -9,7 +9,7 @@ create_data:
   1. Download OCRed book from ÖNB by the unique barcode, see dataScrapy.py.
   2. Clean the downloaded raw text, see parseText.py
   3. Providing a downloaded OCRed book and the corresponding transcription from DTA, see sentenceAlignment.py
-  already generated sentence pairs (ocr_seq, trans_sep) and the original books are under PKL/
+  already generated sentence pairs (ocr_seq, trans_seq) and the original books are under PKL/
   
 CRF:
 
