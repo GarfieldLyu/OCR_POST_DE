@@ -20,9 +20,10 @@ There are many cases that the OCR quality is acceptible(e.g, books from 18_th an
 
 See word_segment.py for details. Due to the space limitation, you can utilize the source code and your own data to train the tagger, alternately you can also download the trained tagger(dewiki_segmentation.crfsuite) from https://drive.google.com/file/d/1h7mwsXERKrymGnVNfYuDcOGf25DbohEp/view?usp=sharing
 
-keras_implement:
 
+keras_implement:
 The original implementation is based on keras, see networks.py for all models definition. The ocr_corrector.py contains all functions to train, evaluate, generate output for a single sentence or in batch level.
+
 
 torch_implement:
 A torch implementation is also on going, for now we provide a standard attention based encoder-decoder model. The only differences are:
@@ -30,6 +31,7 @@ A torch implementation is also on going, for now we provide a standard attention
   1. a random teacher-forcing training.
   2. entmax (instead of softmax).
 These two changes boosted the performance further, which also maintains the simplicity. 
+See Model.py for model definition, see seq2seq.py for training, evaluation, generating and other utilities. A trained model with all instances and the data pairs can be found from https://drive.google.com/drive/folders/1qBI-2IhYPBGtMcGVWGb19lJCu0jV7QId?usp=sharing
 
 
   
