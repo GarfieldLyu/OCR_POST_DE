@@ -15,9 +15,7 @@ create_data:
   already generated sentence pairs (ocr_seq, trans_seq) and the original books are under PKL/
   
 CRF (conditional random field):
-
   There are many cases that the OCR quality is acceptible(e.g, books from 18_th and later centuries), most of the errors are from segmentation instead of character misrecognition. We provide a tagger trained from the German wikipedia corpus, use CRF to correct segmentation errors only.
-
   See word_segment.py for details. Due to the space limitation, you can utilize the source code and your own data to train the tagger, alternately you can also download the trained tagger(dewiki_segmentation.crfsuite) from https://drive.google.com/file/d/1h7mwsXERKrymGnVNfYuDcOGf25DbohEp/view?usp=sharing
 
 
