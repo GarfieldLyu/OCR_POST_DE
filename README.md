@@ -1,6 +1,6 @@
 # OCR_POST_DE
 
-OCR post correction for old German corpus. 
+OCR post correction for old German corpus. More details can be found in our paper(https://arxiv.org/abs/2102.00583). 
 
 Libraries:
   python 3.7
@@ -35,4 +35,13 @@ torch_implement:
   See Model.py for model definition, see seq2seq.py for training, evaluation, generating and other utilities. A trained model with all instances and the data   pairs can be found from https://drive.google.com/drive/folders/1qBI-2IhYPBGtMcGVWGb19lJCu0jV7QId?usp=sharing
 
 
-  
+If more questions related to the code or data, please contact us. 
+Please cite our paper if you find it useful. 
+@misc{lyu2021neural,
+      title={Neural OCR Post-Hoc Correction of Historical Corpora}, 
+      author={Lijun Lyu and Maria Koutraki and Martin Krickl and Besnik Fetahu},
+      year={2021},
+      eprint={2102.00583},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
