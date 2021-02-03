@@ -9,7 +9,7 @@ Libraries:
   Other packages: NLTK, numpy, gensim, datasketch, Bio.pairwise2, entmax
  
 create_data:
-  1. Download OCRed book from ÖNB by the unique barcode, see dataScrapy.py.
+  1. Download OCRed book from ÖNB(https://iiif.onb.ac.at/gui/manifest.html) by the unique barcode, see dataScrapy.py.
   2. Clean the downloaded raw text, see parseText.py
   3. Providing a downloaded OCRed book and the corresponding transcription from DTA, see sentenceAlignment.py
   already generated sentence pairs (ocr_seq, trans_seq) and the original books are under PKL/
@@ -37,6 +37,7 @@ torch_implement:
 
 If more questions related to the code or data, please contact us. 
 Please cite our paper if you find it useful. 
+```
 @misc{lyu2021neural,
       title={Neural OCR Post-Hoc Correction of Historical Corpora}, 
       author={Lijun Lyu and Maria Koutraki and Martin Krickl and Besnik Fetahu},
@@ -45,3 +46,4 @@ Please cite our paper if you find it useful.
       archivePrefix={arXiv},
       primaryClass={cs.CL}
 }
+```
