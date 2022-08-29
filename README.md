@@ -38,12 +38,13 @@ torch_implement:
 If more questions related to the code or data, please contact us. 
 Please cite our paper if you find it useful. 
 ```
-@misc{lyu2021neural,
-      title={Neural OCR Post-Hoc Correction of Historical Corpora}, 
-      author={Lijun Lyu and Maria Koutraki and Martin Krickl and Besnik Fetahu},
-      year={2021},
-      eprint={2102.00583},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
+@article{lyu2021neural,
+  title={Neural OCR post-hoc correction of historical corpora},
+  author={Lyu, Lijun and Koutraki, Maria and Krickl, Martin and Fetahu, Besnik},
+  journal={Transactions of the Association for Computational Linguistics},
+  volume={9},
+  pages={479--493},
+  year={2021},
+  publisher={MIT Press}
 }
 ```
